@@ -1,0 +1,202 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f8f4f8;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 1.1;
+  color: #535bf2;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 10px;
+  padding: 10px;
+  
+  
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em #3178c6aa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+button {
+  padding: 0.6em 1.2em;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: blueviolet;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: blueviolet;
+}
+button:focus,
+button:focus-visible {
+  outline: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.juego {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7daf8;
+  border: 2px solid blueviolet;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 30px;
+}
+
+.cartasDecorativas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.cartasDecorativas img {
+  width: 100px;
+  height: auto;
+}
+
+.botones {
+  display: flex;
+  gap: 10px;
+  margin-top: 200px;
+
+}
+
+
+.carta{
+  border: 2px solid rgb(206, 47, 193);
+  color: rgb(206, 47, 193);
+}
+
+.carta:hover{
+  background-color: rgb(247, 231, 233);
+}
+
+.plantarse{
+  border: 2px solid rgb(206, 47, 193);
+  color: rgb(206, 47, 193);
+}
+
+.plantarse:hover{
+  background-color: rgb(247, 231, 233);
+}
+
+.nuevaPartida{
+  border: 2px solid rgb(206, 47, 193);
+  color: rgb(206, 47, 193);
+}
+
+.nuevaPartida:hover{
+  background-color: rgb(247, 231, 233);
+}
+
+.quePasaria{
+  border: 2px solid rgb(206, 47, 193);
+  color: rgb(206, 47, 193);
+}
+
+.quePasaria:hover{
+  background-color: rgb(247, 231, 233);
+}
+
+.zonaCarta {
+  display: flex;
+  align-items: center;
+  margin-top: 250px;
+  box-shadow: 5px 5px 10px gray;
+
+}
+
+.valorPuntuacion{
+  margin-top: 80px ;
+  padding: 0.6em 1.2em;
+  border: 2px solid rgb(206, 47, 193);
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: rgb(206, 47, 193);
+  background-color: white;
+
+}
+
+.mensaje{
+  color: #646cff;
+  margin-top: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+}
