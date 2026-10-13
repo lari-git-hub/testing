@@ -26,12 +26,12 @@ export const sumarPuntos = (nuevosPuntos: number) => {
 
 export type EstadoPartida = | "EN_JUEGO" | "GAME_OVER" | "GANADO";
 
-export const comprobarPartida = (): EstadoPartida => {
-  if (partida.puntuacion > 7.5){
+export const comprobarPartida = (puntuacion: number): EstadoPartida => {
+  if (puntuacion > 7.5){
      return "GAME_OVER";
     }
   
-  if (partida.puntuacion === 7.5) {
+  if (puntuacion === 7.5) {
      return "GANADO"; 
     } 
     return "EN_JUEGO"; };

@@ -100,7 +100,7 @@ export function pedirCarta(): void {
 
   muestraPuntuacion();
 
-  const estado = comprobarPartida();
+  const estado = comprobarPartida(partida.puntuacion);
 
   if (estado === "GAME_OVER") {
     pintarMensaje("Game Over");
